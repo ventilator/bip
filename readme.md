@@ -1,8 +1,10 @@
 # BIP
 
-![BIP animation preview](./bip-loop.gif)
+<p align="center">
+  <img src="./bip-loop.gif" width="360" alt="BIP animation preview">
+</p>
 
-<img align="right" width="96" alt="BIP character from the 40C3 style guide" src="./40c3-bip.svg">
+<img align="right" width="96" alt="BIP character artwork" src="./bip.svg">
 
 ## A 40C3 CHARACTER, REIMAGINED AS A PCB
 
@@ -29,8 +31,11 @@ Designed with [Alber PCB Designer](https://alber.me/miscellaneous/tools/pcb-desi
 - [KiCad bundle archive](./bip-kicad.zip)
 - [PCB metadata](./bip-project.json)
 - [Vector artwork](./bip.svg)
+- [Small PNG artwork](./bip-icon.png)
 - [Animation preview](./bip.mp4)
 - [Envelope print file](./bip_125mm_envelope.pdf)
+- [Packaging photo 1](./bip-packaging-1.webp)
+- [Packaging photo 2](./bip-packaging-2.webp)
 
 ## IN THIS DIRECTORY
 
@@ -41,9 +46,9 @@ This directory contains the canonical design source and the exported deliverable
 - `bip-gerber.zip` contains the manufacturing Gerber files.
 - `bip-project.json` captures the board metadata and manufacturing setup.
 - `bip-view.png`, `bip-view-thumb.png`, and `bip-view-backside-thumb.png` provide render previews for documentation and presentation.
-- `bip.svg`, `bip.mp4`, `bip-loop.gif`, and `bip_125mm_envelope.pdf` provide additional visual and print assets.
+- `bip.svg`, `bip-icon.png`, `bip.mp4`, `bip-loop.gif`, the two `bip-packaging-*.webp` photos, and `bip_125mm_envelope.pdf` provide additional visual and print assets.
 
-The [40C3 BIP character artwork](./40c3-bip.svg) is included as a visual accent from the style-guide asset pack, whose design assets are released under CC0.
+The [BIP vector artwork](./bip.svg) is used as a visual accent in this README.
 
 ## DESIGN WORKFLOW
 
@@ -52,6 +57,15 @@ The [KiCad project files](./bip-kicad/) are available for inspection and downstr
 ## LICENSE
 
 The original hardware design files are licensed under [CC BY-NC-SA 4.0](./LICENSE.md).
+
+## PACKAGING
+
+A semi transparent envelope 125mm x 125mm
+
+<p align="center">
+  <img src="./bip-packaging-1.webp" width="360" alt="BIP packaging photo 1">
+  <img src="./bip-packaging-2.webp" width="360" alt="BIP packaging photo 2">
+</p>
 
 ![BIP board render](./bip-view-thumb.png)
 
